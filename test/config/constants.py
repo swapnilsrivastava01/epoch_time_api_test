@@ -1,0 +1,6 @@
+URL = "https://showcase.api.linx.twenty57.net/UnixTime/fromunixtimestamp"
+INVALID_URL = "https://showcase.api.linx.twenty57.net/Unix_Time/fromunixtimestamp"
+ERROR = "Error"
+VALUE_NULL_MESSAGE = "Value cannot be null"
+INCORRECT_FORMAT_MESSAGE = "Input string was not in a correct format."
+INCORRECT_VALUE_MESSAGE = "Value was either too large or too small for an Int32."
