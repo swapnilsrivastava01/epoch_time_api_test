@@ -1,9 +1,10 @@
 import unittest
 import requests
-from test.config.constants import VALUE_NULL_MESSAGE, INCORRECT_VALUE_MESSAGE, INCORRECT_FORMAT_MESSAGE, ERROR, URL, \
+from test.config.constants import VALUE_NULL_MESSAGE, INCORRECT_VALUE_MESSAGE, INCORRECT_FORMAT_MESSAGE, URL, \
      INVALID_URL
 from test.config.status import HTTP_200_OK, HTTP_400_BAD_REQUEST, HTTP_500_INTERNAL_SERVER_ERROR
-from test.test_data import invalid_epoch_time_value_request, invalid_format_epoch_time_request, valid_epoch_time_request
+from test.data.test_data import invalid_epoch_time_value_request, invalid_format_epoch_time_request, \
+    valid_epoch_time_request
 
 
 class ApiTesting(unittest.TestCase):
