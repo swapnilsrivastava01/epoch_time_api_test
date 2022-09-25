@@ -1,5 +1,6 @@
 # epoch_time_api_test
-This Repo contains Tests cases to Validate the API that convers the UNIX epoch time to Human Readable format.
+This repo contains only the tests cases to validate an API that converts the UNIX epoch time to human readable format. 
+
 It uses python 3.9
 
 ## Pre-requisites
